@@ -1,2 +1,2 @@
 # js-utils
-my JavaScript utility functions
+A collection of JavaScript utility functions

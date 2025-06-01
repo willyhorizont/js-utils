@@ -1,0 +1,10 @@
+{
+    "name": "js-utils",
+    "version": "1.0.0",
+    "description": "A collection of JavaScript utility functions",
+    "main": "utils.js",
+    "type": "module",
+    "keywords": ["utils", "javascript", "helpers"],
+    "author": "Willy Horizont",
+    "license": "MIT"
+}
