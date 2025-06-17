@@ -11,3 +11,4 @@ export { getType } from "./getType.js";
 export { jsonStringify } from "./jsonStringify.js";
 export { randomIntInclusive } from "./randomIntInclusive.js";
 export { rangeInclusive } from "./rangeInclusive.js";
+export { stringToRgbHexColor } from "./stringToRgbHexColor.js";
