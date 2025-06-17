@@ -7,14 +7,14 @@ const stringToRgbHexColor = (theString) => {
         theHash = theString.charCodeAt(i) + ((theHash << 5) - theHash);
     }
 
-    let hexColorResult = "#";
+    let rgbHexColor = "#";
 
     for (i = 0; i < 3; i += 1) {
-        hexColorResult += `00${((theHash >> (i * 8)) & 0xff).toString(16)}`.slice(-2);
+        rgbHexColor += `00${((theHash >> (i * 8)) & 0xff).toString(16)}`.slice(-2);
     }
     /* eslint-enable no-bitwise */
 
-    return hexColorResult;
+    return rgbHexColor;
 };
 
 export { stringToRgbHexColor };
